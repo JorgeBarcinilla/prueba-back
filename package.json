@@ -1,0 +1,27 @@
+{
+  "name": "prueba-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ts:node": "ts-node src/index.ts",
+    "clean": "del build",
+    "build": "tsc",
+    "start": "node build/src",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/mongoose": "^5.7.36",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^3.8.3"
+  }
+}
